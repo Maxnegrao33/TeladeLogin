@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<title>Tela de Login</title>
+
+		<body>
+				
+
+					<meta charset="UTF-8">
+					<meta author="Maciel Oliveira">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f2f2f2;
+			}
+
+			form {
+				background-color: #fff;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+				max-width: 400px;
+				margin: 50px auto;
+			}
+
+			h1 {
+				margin-top: 0px;
+				text-align: center;
+				color: #333;
+			}
+
+			input[type=text], input[type=password] {
+				display: block;
+				width: 100%;
+				padding: 10px;
+				display: inline-block;
+				border-radius: 5px;
+				border: none;
+				margin-bottom: 20px;
+			}
+
+			input[type=submit] {
+				background-color: #4CAF50;
+				color: #fff;
+				padding: 10px;
+				border-radius: 5px;
+				border: none;
+				cursor: pointer;
+			}
+
+
+			 button {
+        			background-color: #4CAF50;
+        			color: white;
+        			padding: 14px 20px;
+       				margin: 8px 0;
+        			border: none;
+        			cursor: pointer;
+        			width: 100%;
+     			 }
+
+			input[type=submit]:hover {
+				background-color: #3e8e41;
+			}
+
+			.container {
+       				padding: 16px;
+        			background-color: white;
+
+		</style>
+		</head>
+		<body>
+
+		<form>
+			<h1>Tela de Login</h1>
+				<div class="container">
+					<label for="username">Usuário:</label>
+					<input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+					<br><br>
+
+					<label for="password">Senha:</label>
+					<input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+					<br><br>
+
+					<input type="submit" value="Entrar"
+				</div>
+		</form>
+  		</body>
+	</html>
